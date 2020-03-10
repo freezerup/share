@@ -13,7 +13,7 @@
 npm install -g sinopia
 ```
 ##### 默认启动端口4873，访问http://localhost:4873/成功
-####2 .安装pm2，守护sinopia进程
+#### 2.安装pm2，守护sinopia进程
 ``` javascript
 npm install -g pm2
 pm2 start sinopia
@@ -28,7 +28,7 @@ nrm ls 查看所有registry
 ``` javascript
 npm config set registry http://xxx.xx.xx.xx:xxxx/
 ```
-####（xx对应对外开放的ip和端口号）
+#### （xx对应对外开放的ip和端口号）
 ``` javascript
 nrm use registry别名
 ```
